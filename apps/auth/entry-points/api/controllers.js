@@ -1,3 +1,10 @@
-import { validateLogin } from '../../domain/models.js'
+// import { validateLogin } from '../../domain/models.js'
 
-export class 
+
+export class AuthControllers {
+  constructor ({ authDb }) {
+    this.authDb = authDb
+  }
+
+
+}
